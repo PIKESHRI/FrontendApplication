@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/PIKESHRI/FrontendApplication.gitt'
+                git 'https://github.com/PIKESHRI/FrontendApplication.git'
             }
         }
 
