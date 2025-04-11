@@ -3,13 +3,13 @@ pipeline {
 
     environment {
         AWS_REGION = 'us-east-1'
-        ECR_REPO = 'your-account-id.dkr.ecr.us-east-1.amazonaws.com/frontend-app'
+        ECR_REPO = '183631341977.dkr.ecr.us-east-1.amazonaws.com/frontend-app'
     }
 
     stages {
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/your-org/frontend-app.git'
+                git 'https://github.com/PIKESHRI/FrontendApplication.gitt'
             }
         }
 
